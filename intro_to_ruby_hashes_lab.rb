@@ -23,7 +23,7 @@ end
 def id_generator
   # return a hash with a key :id assigned to positive integer
   id_hash = {
-    :id => "123"
+    :id => 123
   }
   id_hash
 end
@@ -31,7 +31,7 @@ end
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
   my_hash = {
-    :key => value
+    key => value
   }
   my_hash
 end
